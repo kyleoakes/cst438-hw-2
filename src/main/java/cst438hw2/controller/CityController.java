@@ -14,7 +14,7 @@ public class CityController {
 	@GetMapping("/cities/{city}")
 	public String getCityInfo(@PathVariable("city") String cityName,
 			Model model) {
-		//TODO ...something?????
+		//TODO implement this... use CityService to get city info?
 		return "index";
 	}
 }
